@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+/* font-family: 'Open Sans', sans-serif;  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+  background-color: hsl(217, 28%, 15%);
+}
+
+.intro__pic {
+
+}
+
+.intro__main__text {
+
+}
+
+.curvy__pic {
+ 
+}
+
+.started__button {
+
+}
+
+/* section 2 */
+/* access */
+.access__pic {
+
+}
+
+.access__main__text {
+
+}
+
+.access__text {
+
+}
+
+/* security */
+
+.security__pic {
+
+}
+
+.security__main__text {
+
+}
+
+.security__text {
+
+}
+
+/* collaboration */
+
+.collaboration__pic {
+
+}
+
+.collaboration__main__text {
+
+}
+
+.collaboration__text {
+
+}
+
+/* store any type or file */
+
+.store__pic {
+
+}
+
+.store__main__text {
+
+}
+
+.store__text {
+    
+}
