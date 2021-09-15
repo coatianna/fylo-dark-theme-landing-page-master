@@ -1,153 +1,90 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap');
 /* font-family: 'Raleway', sans-serif; */
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
 /* font-family: 'Open Sans', sans-serif;  */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-main {
-  background-color: hsl(217, 28%, 15%);
+body {
+  background: hsl(217, 28%, 15%);
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
 }
 
-.intro__pic {
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width:300px;
+  color:white;
+}
 
+.view {
+  width:80%;
+  margin:auto;
+}
+
+.home__nav {
+  width: 80%;
+  margin: auto;
+  margin-top: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 70px;
+  align-items: center;
+}
+
+
+.nav__svg {
+  background: hsl(217, 28%, 15%);
+}
+
+.nav__list{
+
+}
+
+.nav__elem{
+
+}
+
+.intro {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .intro__main__text {
-
+  color:white;
+  font-weight:700;
+  font-size: 40px;
+  width: 65%;
+  text-align: center;
+  margin-top: 40px;
 }
 
-.curvy__pic {
- 
+.intro__text {
+  color:white;
+  font-size: 20px;
+  width: 45%;
+  text-align: center;
+  margin-top: 30px;
+  line-height: 1.5;
 }
 
-.started__button {
-
+.intro__button {
+  color: white;
+  background: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  padding: 20px 100px;
+  border-radius: 30px;
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
 }
-
-/* section 2 */
-/* access */
-.access__pic {
-
-}
-
-.access__main__text {
-
-}
-
-.access__text {
-
-}
-
-/* security */
-
-.security__pic {
-
-}
-
-.security__main__text {
-
-}
-
-.security__text {
-
-}
-
-/* collaboration */
-
-.collaboration__pic {
-
-}
-
-.collaboration__main__text {
-
-}
-
-.collaboration__text {
-
-}
-
-/* store any type or file */
-
-.store__pic {
-
-}
-
-.store__main__text {
-
-}
-
-.store__text {
-    
-}
-
-/* feedback */
-
-.quotes__pic {
-
-}
-
-.icon__1 {
-
-}
-
-.feedback__1 {
-
-}
-
-.person__1 {
-
-}
-
-.icon__2 {
-
-}
-
-.feedback__2 {
-
-}
-
-.person__2 {
-
-}
-
-.icon__3 {
-
-}
-
-.feedback__3 {
-
-}
-
-.person__3 {
-
-}
-
-/* get early access */
-
-.get__early__access {
-
-}
-
-.early__access {
-
-}
-
-.early__access__text {
-
-}
-
-.input__hint {
-  
-}
-
-.get__started__button {
-
-}
-
-/* contact info */
-
