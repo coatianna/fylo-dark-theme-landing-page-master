@@ -305,6 +305,7 @@
     <!-- all of this section is the footer, check on mdn -->
 
     <section>
+      <footer>
       <!--Contact info -->
 
       <p class="location">
@@ -315,29 +316,30 @@
       <!-- phone number is not a paragraph -->
 
       <p class="phone">
-        +1-543-123-4567
+        <a href="tel:1-543-123-4567">1-543-123-4567</a>
       </p>
 
       <!-- an email is not a paragraph -->
 
       <p class="email">
-        example@fylo.com
+       <a href ="mailto:example@fylo.com">example@fylo.com</a>
       </p>
 
       <!-- you cant have a list of item in h2 -->
 
-      <h2 class="about__us">
-        About Us
-        Jobs
-        Press
-        Blog
-      </h2>
+      <ul class="about__us">
+        <li class="elem__info"><a href="#"> About Us </a> </li>
+        <il class="elem__info"><a href="#">Press</a></li>
+        <li class="elem__info"><a href="#">Jobs</a></li>
+        <li class="elem__info"><a href="#">Blog</a></li>
+      </ul>
 
-      <h2 class="contact__us">
-        Contact Us
-        Terms
-        Privacy
-      </h2>
+      <ul class="contact__us">
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Privacy</a></li>
+      </ul>
+    </footer>
     </section>
 
   </main>
