@@ -40,6 +40,9 @@ body {
   align-items: center;
 }
 
+ul {
+  list-style: none;
+}
 
 .nav__svg {
   background: hsl(217, 28%, 15%);
@@ -211,15 +214,47 @@ body {
   padding-left: 135px;
 }
 
+
 .feedback__info {
   color:white;
+  padding-top: 200px;
 }
 
+.feedback__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.feedback__elem {
+  background: black;
+  margin: 0 25px;
+  padding: 40px 25px;
+}
+
+.block__quote {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.icon__feedback {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+
+/* 
 .feedback__list {
   list-style: none;
   display: flex;
   flex-direction: row;
-  margin-top: 200px;
+}
+
+.feedback__elem {
+  width: 60%;
+  background: black;
 }
 
 .icon__feedback {
@@ -228,45 +263,6 @@ body {
   border-radius: 50px;
   position: absolute;
   margin-top: 30px;
-}
-
-.feedback__elem {
-  background-color: black;
-  display: block;
-  width: 70%;
-  line-height: 1.5;
-  padding: 60px 100px;
-
-}
-
-.feedback__first__elem {
-  background-color: black;
-  display: block;
-  line-height: 1.7;
-  padding: 40px 45px;
-  margin-left: -100px;
-  width: 65%;
-  margin-left: 40px;
-}
-
-.feedback__second__elem {
-   background-color: black;
-  display: block;
-  line-height: 1.7;
-  padding: 40px 45px;
-  margin-left: -100px;
-  width: 65%;
-  margin-left: 40px;
-}
-
-.feedback__third__elem {
-  background-color: black;
-  display: block;
-  line-height: 1.7;
-  padding: 70px 75px;
-  margin-left: -100px;
-  width: 65%;
-  margin-left: 40px;
 }
 
 .quotes__pic {
@@ -339,4 +335,4 @@ body {
   margin-top: 50px;
   margin-left: 50px;
 
-}
+} */
