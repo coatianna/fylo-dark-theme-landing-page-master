@@ -5,7 +5,7 @@
 
 /* font-family: 'Open Sans', sans-serif;  */
 * {
-  margin: 0;
+  margin:0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -87,4 +87,44 @@ ul {
   border: none;
   margin-top: 30px;
   font-size: 18px;
+}
+
+.maininfo {
+  padding-bottom: 8rem;
+  box-sizing: border-box;
+  margin:0;
+}
+
+.all__main__info {
+  column-count: 2;
+  text-align: center;
+  line-height: 1.5;
+  word-break: break-word;
+  color: white;
+  display:block;
+  padding-top: 10rem;
+}
+
+.all__access {
+  text-align: -moz-center;
+  width: 60%;
+  margin: auto;
+}
+
+.all__security {
+  text-align: -moz-center;
+  width: 60%;
+  margin: auto;
+}
+
+.all__collaboration {
+  text-align: -moz-center;
+  width: 60%;
+  margin: auto;
+}
+
+.all__store {
+  width: 60%;
+  margin: auto;
+  text-align: -moz-center;
 }
