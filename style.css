@@ -16,7 +16,7 @@ body {
   font-size: 14px;
 }
 
-ul {
+.nav__list {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
@@ -77,6 +77,7 @@ ul {
   text-align: center;
   margin-top: 30px;
   line-height: 1.5;
+  z-index: 2;
 }
 
 .intro__button {
@@ -87,44 +88,116 @@ ul {
   border: none;
   margin-top: 30px;
   font-size: 18px;
+  z-index: 2;
 }
 
-.maininfo {
-  padding-bottom: 8rem;
-  box-sizing: border-box;
-  margin:0;
+.main__info {
+  margin-top: -180px;
+
 }
 
-.all__main__info {
-  column-count: 2;
-  text-align: center;
-  line-height: 1.5;
-  word-break: break-word;
+.main__list{
+  list-style-type: none;
   color: white;
-  display:block;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
   padding-top: 10rem;
+  line-height: 1.5;
+  justify-content: center;
+  
+
 }
 
-.all__access {
-  text-align: -moz-center;
-  width: 60%;
+.list__items {
+  width: 500px;
+  padding-bottom: 100px;
+}
+
+.access__text {
+  width: 70%;
+  margin: auto;
+
+}
+
+.security__text {
+  width: 80%;
   margin: auto;
 }
 
-.all__security {
-  text-align: -moz-center;
-  width: 60%;
+.collaboration__text {
+  width: 80%;
   margin: auto;
 }
 
-.all__collaboration {
-  text-align: -moz-center;
-  width: 60%;
+.store__text {
+  width: 75%;
   margin: auto;
 }
 
-.all__store {
-  width: 60%;
+.main__pic {
+  margin:20px 0;
+}
+
+.curvy__pic {
+  position: relative;
+  z-index: 1;
+  margin-top: -240px;
+}
+
+.main__info {
+ 
+}
+
+.stayproductive__pic {
+  margin-top: 40px;
+  margin-left: 80px;
+}
+
+.stay__productive__info {
+  display:flex;
+  color:white;
+}
+
+.stayproductive__text {
+  font-weight: 700;
+  font-size: 40px;
+  width: 50%;
+  line-height: 1.2;
+}
+
+.all__stay__productive {
+  margin-top: 170px;
+  position: relative;
   margin: auto;
-  text-align: -moz-center;
+  margin-right: -100px;
+  line-height: 1.5;
+}
+
+.stayproductive__tips__first {
+  width: 65%;
+  padding-top: 20px;
+}
+
+.stayproductive__tips__second {
+  width: 65%;
+  padding-top: 20px;
+}
+
+.stayproductive__link {
+  color: hsl(176, 68%, 64%);
+  display: block;
+  text-decoration: none;
+}
+
+.stayproductive__link::after{
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  width:21%;
+  height: 1px;
+  background-color:hsl(176, 68%, 64%);
 }
