@@ -321,7 +321,7 @@ ul {
   width: 70%;
   padding-top: 20px;
   padding-bottom: 35px;
-  
+  z-index: 1;
 }
 .access__button {
   
@@ -356,9 +356,14 @@ ul {
 
 .location{
   color:white;
+  display: flex
+  flex-direction: column;
+}
+
+.location__div {
   display: flex;
-  padding-top: 50px;
-  margin-left: 30px;
+  flex-direction: row;
+  padding-top: 40px;
 }
 
 .footer__svg {
@@ -388,7 +393,7 @@ footer {
 .email__link {
   color:white;
   text-decoration: none;
-  margin-right: 42rem;
+  margin-left: -970px;
 }
 
 .about__us {
@@ -453,7 +458,7 @@ footer {
   width: 100%;
   height: 250px;
   background-color: hsl(216, 53%, 9%);
-  z-index: -1;
+  z-index: 0;
 }
 
 .dark--bg {
